@@ -87,6 +87,7 @@ fn prove_revm() {
     ).unwrap();
     assert!(ok);
 
+    println!("vk hash: {:?}", vk.bytes32());
     println!("successfully generated and verified proof for the program!");
 }
 
